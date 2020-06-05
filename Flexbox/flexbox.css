@@ -20,7 +20,12 @@ body{
     flex-direction: row;
     flex-wrap: wrap; 
 
+    /*flex-flow: row wrap;*/
+
     justify-content: space-between;
+
+    /*align-items: center;*/
+
     align-items: center;
 }
 
@@ -33,4 +38,11 @@ body{
     padding: 20px;
     font-size: 40px;
     color: #fff;
+    flex-grow: 1;
+    flex: 1 1 auto;
+}
+
+.dos{
+    align-self: stretch;
+    height: auto;
 }
